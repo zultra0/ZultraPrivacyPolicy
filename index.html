@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zultra | Privacy Policy</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-dark: #0f0f13;
+            --glass-bg: rgba(30, 30, 35, 0.6);
+            --glass-border: rgba(255, 255, 255, 0.08);
+            --accent: #e056fd;
+            --text-main: #ffffff;
+            --text-muted: #8e8e93;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-dark);
+            background-image: radial-gradient(circle at 50% 0%, rgba(224, 86, 253, 0.1), transparent 50%);
+            color: var(--text-main);
+            display: flex;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        /* Document Container */
+        .document-container {
+            max-width: 800px;
+            width: 100%;
+            padding: 60px 20px;
+            box-sizing: border-box;
+        }
+
+        .document-card {
+            background: var(--glass-bg);
+            border: 1px solid var(--glass-border);
+            border-radius: 24px;
+            padding: 50px;
+            box-shadow: 0 24px 40px rgba(0,0,0,0.4);
+            backdrop-filter: blur(20px);
+        }
+
+        /* Static Brand Header inside the document */
+        .brand-header {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 20px;
+            font-weight: 700;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid var(--glass-border);
+        }
+
+        .brand-icon {
+            width: 28px;
+            height: 28px;
+            background: linear-gradient(135deg, #4facfe 0%, var(--accent) 100%);
+            border-radius: 8px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 14px;
+        }
+
+        h1 {
+            margin-top: 0;
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+
+        .last-updated {
+            color: var(--accent);
+            font-size: 14px;
+            margin-bottom: 40px;
+            font-weight: 500;
+        }
+
+        h2 {
+            font-size: 20px;
+            margin-top: 40px;
+            margin-bottom: 15px;
+            border-bottom: 1px solid var(--glass-border);
+            padding-bottom: 10px;
+        }
+
+        p, li {
+            color: var(--text-muted);
+            line-height: 1.7;
+            font-size: 15px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+        
+        strong {
+            color: var(--text-main);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="document-container">
+        <div class="document-card">
+            
+            <div class="brand-header">
+                <div class="brand-icon">Z</div> Zultra
+            </div>
+
+            <h1>Privacy Policy</h1>
+            <div class="last-updated">Last Updated: September 2026</div>
+
+            <p>Welcome to the Zultra ecosystem. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our suite of applications, including Zultra Cloud, Zultra AI, Zultra Media, Zultra Notes, Zultra Drive, and Zultra Flow.</p>
+
+            <h2>1. Information We Collect</h2>
+            <ul>
+                <li><strong>Account Data:</strong> When you create a Zultra ID, we collect your email address and an encrypted version of your password via Google Firebase Authentication.</li>
+                <li><strong>User Content:</strong> We securely store the text, media files, and tasks you upload to Zultra Notes, Media, Drive, and Flow using Firebase Firestore and Cloud Storage.</li>
+                <li><strong>API Keys:</strong> If you input a third-party API key (such as a Google Gemini key for Zultra AI), it is stored <em>locally</em> on your device's browser storage. We do not transmit or store your personal API keys on our servers.</li>
+            </ul>
+
+            <h2>2. How We Use Your Information</h2>
+            <p>We strictly use the information collected to operate, maintain, and provide the features of the Zultra ecosystem. Your data is tied directly to your authenticated Zultra ID, ensuring your files and notes are seamlessly synced across your devices.</p>
+
+            <h2>3. Third-Party Services & AI Processing</h2>
+            <p>Our ecosystem utilizes Google Firebase for backend infrastructure and security. When using <strong>Zultra AI</strong>, the text prompts you enter are processed by Google's Gemini API. Please refer to Google's Privacy Policy regarding how they handle data processed through their API endpoints.</p>
+
+            <h2>4. Data Security</h2>
+            <p>We implement robust security measures, including Firebase Security Rules, to ensure that your data can only be accessed by your authenticated Zultra ID. However, please note that no method of transmission over the internet or electronic storage is 100% secure.</p>
+
+            <h2>5. Your Data Rights</h2>
+            <p>You maintain full ownership of all data uploaded to the Zultra ecosystem. You reserve the right to request the deletion of your account and all associated data at any time by contacting our support channels.</p>
+
+            <h2>6. Changes to This Policy</h2>
+            <p>We may update this Privacy Policy from time to time as we add new apps to the Zultra ecosystem. We will notify you of any changes by updating the "Last Updated" date at the top of this document.</p>
+        </div>
+    </div>
+
+</body>
+</html>
